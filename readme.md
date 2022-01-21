@@ -3,10 +3,11 @@
 ## Task
 
 In this project, traffic incidents across WA roads are investigated in order to explore whether or not there is a relationship between the number/severity of accidents and the following variables:
-    * Year of crash
-    * Time of crash
-    * Road speed limit
-    * Vehicle type
+
+* Year of crash
+* Time of crash
+* Road speed limit
+* Vehicle type
 
 For this, Pandas is used to clean and format the datasets and to illustrate the final data analysis. Matplotlib is used to create visualisations of the data. Gmaps (a Jupyter plugin) is employed to visualise fatal crashed across WA roads in 2020.
 

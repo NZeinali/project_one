@@ -1,33 +1,49 @@
 # WA traffic accidents
 
-## TO-DO/EXPLORE >> This is just to explore the pattern/relationship between variable to see what is happening (the overall picture) after that we can hypothesis/test these relationships and weather they have a significant impact on accidents 
+## Task
 
-# How to round/Lat-lon to narrow down traffic zones (at the moment round to 1)
+In this project, traffic incidents across WA roads are investigated in order to explore whether or not there is a relationship between the number/severity of accidents and the following variables:
+    * Year of crash
+    * Time of crash
+    * Road speed limit
+    * Vehicle type
 
-# Explore the relationships between the roads/suburb (lat/lon) and: 
+For this, Pandas is used to clean and format the datasets and to illustrate the final data analysis. Matplotlib is used to create visualisations of the data. Gmaps (a Jupyter plugin) is employed to visualise fatal crashed across WA roads in 2020.
 
-    # Yearly pattern of accidents 
+## Data source
 
-    # Pattern of accident by season/months 
+https://catalogue.data.wa.gov.au/dataset/mrwa-crash-information-last-5-years-/resource/0ccf6e57-9f54-4d94-bd21-0be0df989608?inner_span=True
 
-    # Patterns of accident by day/night 
+https://catalogue.data.wa.gov.au/dataset/mrwa-legal-speed-limits/resource/1dfeab67-639b-4c59-acda-33d3242ac38d?inner_span=True
 
-## ^^ Try and do groupby.severity
+## Visualisations 
 
-# How the accidents are in relation to: 
-    
-    # Year (time series) 
+Below are some examples of visualisations from the dataset obtained using python:
 
-    # Season/months 
+* Traffic incidents per year 
 
-    # Day/night 
+![year](Images/accident_year.png)
 
-#Vehicle type (motorcycle/truck/car - other vehicle) - this can also link to cause potentially
+* Traffic incidents per time of the day 
 
-    # Day/night 
+![time](Images/accident_time.png)
 
-    # Season/month
-    
-    # Year 
+* Suburbs with major fatal accidents
 
-# Idea, if we can incorporate a colour map
+![suburb](Images/suburb_fatal.png)
+
+* Accident type distribution (Midblock vs Intersection)
+
+![midblock vs intersection](Images/mid_inter.png)
+
+* Road incidents vs speed limit (grouped by severity)
+
+![speed limit](Images/speedlimit.png)
+
+* WA fatal crash map in 2020
+
+![map](Images/map.png)
+
+* Vulnerable road users
+
+![users](Images/road_users.png)
